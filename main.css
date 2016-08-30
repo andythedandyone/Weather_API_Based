@@ -1,0 +1,72 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee+Shade|Exo|Kumar+One+Outline|Londrina+Outline|Orbitron';
+body {
+    background-color: lightgrey;
+    background-image: url("https://www.dropbox.com/s/qe0q2iv7jbfwo66/weather-4.jpg?dl=1");
+}
+
+#main {
+    height: 300px;
+    width: 400px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    }
+
+#title {
+    font-family: "bungee shade";
+    font-size: 32px;
+    text-align: center;
+}
+
+#submain {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#temp {
+    width: 20%;
+    display: inline-block;
+    font-family: orbitron;
+    font-size: 18px;
+    text-align: center;
+
+    border-style: ridge;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#icon {
+    width: 20%;
+    display: inline;
+    text-align: center;
+}
+
+#stat {
+    width: 20%;
+    display: inline-block;
+    font-family: orbitron;
+    font-size: 18px;
+    text-align: center;
+
+    border-style: ridge;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#info {
+    text-align: center;
+    font-family: orbitron;
+    font-size: 22px;
+
+}
+
+#by {
+    font-family: exo;
+    text-align: center;
+    font-size: 10px;
+}
